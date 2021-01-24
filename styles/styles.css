@@ -1,0 +1,97 @@
+body {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*
+  profile
+*/
+
+.hero .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 60px;
+}
+
+.hero .profile .profile-data .prof-img{
+  width: 158px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .profile img{
+  width: 158px;
+  height: 158px;
+  border-radius: 16px;
+}
+
+.hero .profile .profile-data .prof-data{
+  text-align: center;
+}
+
+.hero .profile .profile-data h1 {
+  margin: 0;
+  margin-top: 14px;
+}
+
+.hero .profile .profile-data p {
+  margin: 0;
+  margin-top: 8px;
+}
+
+
+
+/*
+  data cards
+*/
+
+.hero .data-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 24px;
+}
+
+.hero .data-cards .card {
+  height: 67px;
+  width: 100px;
+  background-color: #E5E5E5;
+  border-radius: 12px;
+  margin: 0px 12px;
+}
+
+.hero .data-cards .card p {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.hero .data-cards .card .number {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #4E5150;
+  font-weight: bold;
+}
+
+.hero .data-cards .card .data-name {
+  margin-top: 3.1px;
+  font-size: 14px;
+  color: #BDBDBD;
+}
+
+
+.section {
+  margin-top: 63px;
+}
