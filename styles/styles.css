@@ -110,8 +110,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 
+  padding: 0px 16px;
+
   display: grid;
-  grid-template-columns: repeat(64,15px);
+  grid-template-columns: repeat(64,calc(100%/64));
   grid-template-rows: repeat(3,299px);
   row-gap: 32px;
 }
